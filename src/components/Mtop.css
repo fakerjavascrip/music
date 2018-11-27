@@ -1,0 +1,82 @@
+.Mtop{
+    position: relative;
+    width: 100%;
+    height: auto;;
+}
+.Mtop_self{
+    background-color: #31c27c;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+}
+.Mtop_top{
+    position: relative;
+    height:2.6rem;
+    width: 100%;
+    background-color: #31c27c;
+    font-size: 1rem;
+}
+.Mtop_top_mark{
+    position: absolute;
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.Mtop_top_mark img{
+    width: 1rem;
+    padding: 0.8rem;
+    height: auto;
+}
+.MTop_top_choice{
+    position: relative;
+    width: 9.3rem;
+    margin: auto;
+    height: 100%;
+}
+.Mtop_top_title{
+    position: relative;
+    float: left;
+    font-size: 0.9rem;
+    /* color: gray; */
+    width: 3.1rem;
+    text-align: center;
+    line-height: 2.6rem;
+    TEXT-DECORATION:none;
+    color:#e6e6e6;
+}
+.Mtop_center{
+    position: relative;
+    height: 2rem;
+    width: 100%;
+    background-color: #31c27c;
+    position: relative; 
+    font-size: 1rem;
+}
+.Mtop_center_input{
+    position: relative;
+    width:18rem;
+    height:1.4rem;
+    margin: auto;
+}
+.Mtop_center_input img{
+    position: absolute;
+    width:  1rem;
+    height: 1rem;
+    margin: 0.2rem;
+    left: 7.7rem;
+}
+.Mtop_center_input div{
+    width:100%;
+    height: 100%;
+    background-color: #2AAA73;
+    border-style: none;
+    /* text-align: center; */
+    text-indent: 9.2rem;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+.active{
+    color:white !important;
+    font-weight: 900;
+}

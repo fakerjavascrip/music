@@ -1,0 +1,35 @@
+.hot_box{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 1.15rem 1rem 1rem 1rem;
+}
+.hot_mark{
+    position: relative;
+    width: 100%;
+    height: auto;
+    color: gray;
+    font-size: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.hot_title{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.hot_seniority{
+    position: relative;
+    width: auto;
+    height: auto;
+    font-size: 0.8rem;
+    line-height:1rem;
+    float: left;
+    padding: 0.32rem;
+    margin: 0.2rem 0.25rem 0.2rem 0.25rem;
+    border-radius: 1rem;
+    color: #31c27c;
+    border: #31c27c 0.03rem solid; 
+    text-align: center;
+    list-style-type: none
+}

@@ -1,0 +1,188 @@
+.ranking_box{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-top: 4.6rem;
+    overflow: hidden;
+    padding-bottom: 3rem;
+}
+.ranking_first_show{
+    position: relative;
+    padding: 0 0.5rem 0rem 0.5rem;
+    width: auto;
+    height: 0rem;
+}
+.ranking_first_hide{
+    position: relative;
+    padding: 0 0.5rem 0rem 0.5rem;
+    width: auto;
+    height: 0rem;
+    overflow: hidden;
+}
+.ranking_top{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+.ranking_list{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom:0.5rem; 
+}
+.ranking_list_img{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    float: left
+}
+.ranking_list_img img{
+    width: 100%;
+    height: 100%;
+}
+.ranking_list_right{
+    position: relative;
+    width: auto;
+    height: 4rem;
+    margin-left: 5rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    background-color: white;
+}
+.ranking_list_right h3{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom:0.2rem; 
+}
+.ranking_list_right p{
+    font-size: 0.68rem;
+    color: rgba(0,0,0,.5);
+    letter-spacing: 0.01rem;
+    overflow: hidden;
+}
+.ranking_text_name{
+    letter-spacing: 0rem;
+    line-height: 1rem;
+    padding: 0 0.25rem 0 0.45rem;
+    color: black;
+    width: auto; 
+    height: 01rem;
+    overflow: hidden;
+}
+.ranking_second_show{
+    position: relative;
+    width: auto;
+    height: auto;
+    z-index: 3;
+    margin-top: 9rem;
+    transition:left 0.3s;
+    left: 0rem;
+}
+.ranking_second_hide{
+    position: relative;
+    width: auto;
+    height: 0;
+    z-index: 3;
+    margin-top: 9rem;
+    transition:left 0.3s;
+    left: 20rem;
+}
+.ranking_second_mark{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0px;
+}
+.ranking_second_mark img{
+    width: 100%;
+    height: auto
+}
+.ranking_second_back{
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    width: 100%;
+    height: 2.6rem;
+    overflow: hidden;
+}
+.ranking_seconda_bottom_img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.ranking_second_back_img{
+    position:absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.7rem 0 0 0.3rem;
+    z-index: 3;
+}
+.ranking_second_back_img img{
+    width: 100%;
+    height: 100%;
+}
+.ranking_second_back p{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: auto;
+    line-height: 2.75rem;
+    z-index: 2;
+}
+.ranking_second_bottom{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color:white;
+    z-index: 2;
+}
+.ranking_second_list{
+    position: relative;
+    width: auto;
+    padding-left:0rem; 
+    height: 3.2rem;
+}
+.ranking_second_list:after{
+    position: absolute;
+    top: 3rem;
+    content: "";
+    width: 92%;
+    left: 8%;
+    height: 1px;
+    background-color: #31c27c;
+}
+.ranking_list_num{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem 0.1rem 0.5rem 0.5rem;
+    text-align: center;
+    color: red;
+    font-size: 1.16rem;
+    float: left;
+}
+.ranking_list_words{
+    position: relative;
+    width: auto;
+    margin-left: 3rem;
+    height: 2.3rem;
+    top: 0.3rem;
+}
+.ranking_list_words h2{
+    color: black;
+    height: 1.15rem;
+    line-height: 1.15rem;
+    font-size: 0.7rem;
+}
+.ranking_list_words P{
+    font-size: 0.7rem;
+    line-height: 1.15rem;
+    height: 1.15rem;
+    color: #008000a8;
+}
+.cache_hide{
+    display: none;
+}

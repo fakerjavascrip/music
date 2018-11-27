@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <!-- 手机缩放控制 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>my react</title>
+    <style>
+        *{
+          margin: 0px;
+          padding: 0px;
+          border-width: 0px;
+        }
+    </style>
+  </head>
+  <body style="background-color: #f4f4f4;;">
+    <noscript>
+    </noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+    var fun = function (doc, win) {
+    var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+
+            //这里是假设在640px宽度设计稿的情况下，1rem = 20px；
+            //可以根据实际需要修改
+            docEl.style.fontSize = 20 * (clientWidth /400) + 'px';
+        };
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalc, false);
+    doc.addEventListener('DOMContentLoaded', recalc, false);
+}
+fun(document, window);
+  </script>
+</html>

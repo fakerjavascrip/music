@@ -1,0 +1,117 @@
+.findout_box{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.findout_top{
+    position: relative;
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+}
+.findout_top:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.01rem;
+    background-color: #e6e6e6;
+    top: 1.98rem;
+    left: 0rem;
+}
+.ordinary_show{
+    position: relative;
+    width:auto;
+    padding: 0 1rem 0 1rem;
+    float: left;
+    line-height: 2rem;
+    height: 2rem;
+    font-size: 0.85rem;
+}
+.selected_show{
+    position: relative;
+    width:auto;
+    padding: 0 1rem 0 1rem;
+    float: left;
+    line-height: 2rem;
+    height: 2rem;
+    font-size: 0.85rem;
+    color: #31c27c;
+}
+.selected_show:after{
+    content: "";
+    position:absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #31c27c;
+    left: 0px;
+    bottom: 0px;
+}
+.findout_center{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.findout_list{
+    position: relative;
+    width: 100%;
+    height: 2.8rem;
+}
+.findout_list_mark{
+    position: relative;
+    width: 2.8rem;
+    height:2.8rem;
+    float: left;
+}
+.findout_list_mark img{
+    position: relative;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin:0.5rem
+}
+.findout_list_words{
+    position: relative;
+    width: auto;
+    height: 2.8rem;
+    margin-left: 2.8rem;
+}
+.findout_words_song{
+    position: relative;
+    width: 100%;
+    height: 0.9rem;
+    padding-top: 0.45rem;
+    padding-bottom: 0.1rem;
+    line-height: 1rem;
+    font-size: 0.85rem;
+}
+.findout_words_singer{
+    position: relative;
+    width: 100%;
+    font-size: 0.66rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    color: #808080;
+    font-weight: 200;
+}
+.findout_list:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #bfbfbf;
+    top: 2.8rem;
+    left: 0rem;
+}
+.findout_bottom{
+    position: relative;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.cache_show{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,35 @@
+.cache_box_hide{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: none;
+    float: left;
+}
+.cache_box_show{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.cache_top{
+    position: relative;
+    width: 1.6rem;
+    height: 1.6rem;
+    padding:3rem 0rem 0rem 0rem;
+    margin: auto; 
+}
+.cache_top img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.cache_center{
+    position: relative;
+    width: 10rem;
+    margin: auto;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+}

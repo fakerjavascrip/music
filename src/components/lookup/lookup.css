@@ -1,0 +1,73 @@
+.lookup_box{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.lookup_top{
+    position: relative;
+    width: auto;
+    padding:1rem 0.5rem 0.5rem 0.5rem;
+    height:1.6rem;
+    background-color: #31c27c;
+}
+.lookup_back{
+    position: absolute;
+    width: 1.3rem;;
+    height: 1.6rem;
+    margin-top: 0.1rem;
+}
+.lookup_back img{
+    width: 100%;
+    height: 100%;
+}
+.lookup_input{
+    position: relative;
+    width: 12rem;
+    margin:0 0 0 2.4rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background-color: #31c27c;
+    color: white;
+    font-size: 0.85rem;
+    outline:none;
+    letter-spacing: 0.05rem;
+}
+
+.lookup_input ::focus{
+    border-width: 0px;
+}
+
+.lookup_input::-webkit-input-placeholder{ /*WebKit browsers*/
+    color:#e6e6e6;
+}
+
+.lookup_input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    color: #e6e6e6;
+}
+
+.lookup_input::-ms-input-placeholder{ /*Internet Explorer*/ 
+    color: #e6e6e6;
+}
+.lookup_find{
+    position: relative;
+    float: right;
+    width: 4rem;
+    color: white;
+    font-size: 0.85rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    letter-spacing: 0.05rem;
+}
+三个底部的显示样式
+.lookup_show{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.back_lookup{
+    position: relative;
+    height: 0rem;
+    width: 100%;
+    overflow: hidden;
+}

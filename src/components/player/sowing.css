@@ -1,0 +1,165 @@
+.sowing_box_show{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+    opacity: 1;
+    bottom: 0rem;
+    z-index: 6;
+    overflow: hidden;
+    background-color: white;
+    border-top-width: 0.001rem;
+    border-style: solid;
+    border-color: #c1c1b2;
+}
+.sowing_box_hide{
+    position: fixed;
+    width: 100%;
+    height:auto;
+    transition: all 0.3s;
+    opacity: 0;
+    bottom: -10rem;
+    z-index: -1;
+    overflow: hidden;
+    background-color: white;
+}
+.sowing_top{
+    position: relative;
+    width:auto;
+    padding: 0.3rem 2.9rem 0.3rem 2.9rem;
+    height: 2rem;
+    border-bottom-width: 0.001rem;
+    border-style: solid;
+    border-color: #c1c1b2;
+    overflow: hidden;
+}
+.sowing_top_switch {
+    position: relative;
+    float: left;
+    width: 2rem;
+    height: 100%;
+    margin-left: -100%;
+    left: -2rem;
+}
+.radio_way_show{
+    width: 100%;
+    height: 100%;
+}
+.radio_way_hide{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.sowing_top_mark{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    text-indent: 0.4rem;
+}
+.sowing_top_delete{
+    position: relative;
+    float: left;
+    width: 2rem;
+    height: 100%;
+    margin-left: -2rem;
+    left: 2rem;
+}
+.sowing_top_delete img{
+    width: 75%;
+    height: 75%;
+    margin: 12.5%;
+}
+.sowing_center{
+    position: relative;
+    width: auto;
+    height:auto;
+    max-height: 12rem;
+    overflow: hidden;
+    margin: auto;
+}
+/* .sowing_center ul{
+    position: relative;
+    width: 100%;
+    max-height: 5rem;
+    overflow: hidden;
+} */
+.sowing_bottom{
+    position: relative;
+    width: 100%;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #333;
+    background-color: white;
+}
+#sowing_haha{
+    position: relative;
+    width: auto;
+    padding: 0 1.5rem 0 1.5rem;  
+    height: 2rem;
+    font-size: 0.65rem;
+    overflow: hidden;
+}
+#sowing_haha:after{
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 0.05rem;
+    left: 5%;
+    top: 1.95rem;
+    background-color: #31c27c;
+    
+}
+.sowing_list_title{
+    position: relative;
+    width:auto;
+    max-width: 12rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-indent: 0.5rem;
+    font-size: 0.65rem;
+    text-overflow: ellipsis;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.sowing_list_title_light{
+    position: relative;
+    width:auto;
+    max-width: 12rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-indent: 0.5rem;
+    font-size: 0.65rem;
+    color: #008000a8;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+}
+.sowing_list_like{
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.5rem;
+    float: right;
+}
+.sowing_list_like_hide{
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.5rem;
+    float: right;
+    display: none;
+}
+.sowing_list_delete{
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.5rem;
+    float: right;
+}

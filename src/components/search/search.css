@@ -1,0 +1,55 @@
+.search_top{
+    position: relative;
+    padding: 0.7rem;
+    font-size: 0.85rem;
+    color: #31c27c;
+    background-color: white;
+}
+.search_center{
+    position: relative;
+    font-size: 0.85rem;
+    color: #31c27c;
+    background-color: white;
+    height: 30rem;
+}
+.search_list{
+    position: relative;
+    font-size: 0.85;
+    padding: 0.9rem 3rem 0.9rem 3rem;
+    font-size:0.85rem;
+    width: auto;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    letter-spacing: 0.05rem;
+    overflow: hidden;
+}
+.search_list div{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.search_list_left{
+    position: relative;
+    width: 0.9rem;
+    height: 0.9rem;
+    float: left;
+    margin-left: -100%;
+    left: -1.9rem;
+}
+.search_list_right{
+    position: relative;
+    width: 0.9rem;
+    float: left;
+    height: 0.9rem;
+    margin-left: -0.9rem;
+    left: 2rem;
+}
+.search_list:after{
+    position: absolute;
+    content:"";
+    width: 20rem;
+    height: 1px;
+    background-color:#bfbfbf;
+    top: 2.45rem;
+    left: 0rem;
+}
